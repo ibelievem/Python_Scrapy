@@ -22,9 +22,9 @@ class PythonpositionSpider(scrapy.Spider):
         print("应答对象信息",response)
         print("应答对象类型", type(response))
 
-        # css选择器
+        # 通过css选择器获取
         # response.css
-        # 正则
+        # 通过正则获取
         # response.re
 
         # 取所有岗位信息
