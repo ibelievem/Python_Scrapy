@@ -35,7 +35,7 @@ class PythonpositionSpider(scrapy.Spider):
 
             #from scrapy.selector.unified import SelectorList
             # scrapy 把xpath提取的结果封装到SelectorList
-            # extract()返回一个生成器
+            # extract()返回一个列表
             # print("xpath结果对象信息",positionName)
             # print("xpath结果对象类型", type(positionName))
 
